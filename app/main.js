@@ -64,6 +64,7 @@ const createWindow = exports.createWindow = () => {
     newWindow = null;
   });
 
+  windows.add(newWindow);
   return newWindow;
 };
 
